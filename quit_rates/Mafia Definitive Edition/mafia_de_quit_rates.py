@@ -45,7 +45,7 @@ plt.annotate(
 
 # Enhance aesthetics
 plt.title("Mafia: Definitive Edition - Quit Rates", fontsize=18, weight='bold', color='#333333')
-plt.xlabel("Chapter Number", fontsize=14)
+plt.xlabel("Chapter Name", fontsize=14)
 plt.ylabel("Quit Rate", fontsize=14)
 plt.xticks(rotation=90)
 plt.grid(True, linestyle='--', alpha=0.6)
