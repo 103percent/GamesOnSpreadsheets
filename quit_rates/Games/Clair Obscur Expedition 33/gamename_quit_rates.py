@@ -23,7 +23,7 @@ highlight_indexes = [0,2,6,10,13,15]
 sns.lineplot(data=df, x='chapter_name', y='quit_rate_pc', marker='o', linewidth=2.5, color='#007acc')
 ax.yaxis.set_major_formatter(PercentFormatter(xmax=1))
 ax.set_title("Clair Obscur: Expedition 33 - Quit Rates (PS)", fontsize=18, weight='bold')
-ax.set_xlabel("Zone", fontsize=14)
+ax.set_xlabel("Trophy", fontsize=14)
 ax.set_ylabel("Quit Rate", fontsize=14)
 plt.xticks(rotation=90)
 plt.grid(True, linestyle='--', alpha=0.6)
